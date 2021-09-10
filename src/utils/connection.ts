@@ -1,3 +1,3 @@
 import mongoose from 'mongoose'
 
-mongoose.connect('mongodb+srv://melqui:10203010@cluster0.1rihg.mongodb.net/typeGraphql?retryWrites=true&w=majority')
+mongoose.connect(`mongodb+srv://${process.env.MONGOOSE_USER}:${process.env.MONGOOSE_PASSWORD}@cluster0.1rihg.mongodb.net/${process.env.DATABASE}?retryWrites=true&w=majority`)
