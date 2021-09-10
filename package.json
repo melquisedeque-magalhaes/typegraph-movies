@@ -1,0 +1,22 @@
+{
+  "name": "typegraphQl-first-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "class-validator": "^0.13.1",
+    "graphql": "^15.5.3",
+    "mongoose": "^6.0.5",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
